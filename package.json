@@ -35,6 +35,8 @@
     "pg": "^7.8.1",
     "pug": "^2.0.3",
     "sequelize": "^4.42.0",
-    "sequelize-cli": "^5.4.0"
+    "sequelize-cli": "^5.4.0",
+    "travis": "^0.1.1",
+    "travis-cli": "^1.0.9"
   }
 }
