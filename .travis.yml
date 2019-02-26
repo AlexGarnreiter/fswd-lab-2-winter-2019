@@ -7,6 +7,6 @@ script: npm run $SCRIPT
 
 deploy:
   provider: heroku
-  app: lit-garden-16576
+  app: "lit-garden-16576"
   api_key:
     secure: "2218f98a-98a9-4a7e-97ae-7fb5b30eabff"
