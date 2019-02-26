@@ -1,11 +1,8 @@
 language: node_js
 env:
-  - SCRIPT=lint
-  - SCRIPT=test
-
+- SCRIPT=lint
+- SCRIPT=test
 script: npm run $SCRIPT
-
 deploy:
-  provider: heroku
   api_key:
-    secure: "2218f98a-98a9-4a7e-97ae-7fb5b30eabff"
+    secure: OBtZPjH/DPkOTu2/2V1H7CJZijoJZ+Cri6cZCVFgaT+HmllNhG8bWzFQ+ZaaT3RzhQL1ltcndyLvOIkjZI+vyRZwiDW+c3cRtbALLs/eRlXA1xlb4VHJn4xgGSkQQQmZcxMc5A//jwNSGpWJy5aDgesYKdya32+RdXIeNmK6snwo3OXpM75FN+EhjRIUa+VNm4ww34x0gCQBW/sEiphjb9gESowKn93b/BVLwYlQlQ4lWcXpm6WNOdIEi+iANptCsBJgYZlUppUt5Sp3QknGEPlNKbLM/t2szG7hIrk1Jic5shZZ2UFT3A4RvTu+ZMciU49DvdUQ0mz8kG4wPGIG49LMjsED03fgyehom7HLCF3NMaw4p8lETp3GzWRnhQUzJZoMyLz+9Tk0+wcz5YMwzYRoVQeDbuo87jGH0YabmjxSLIHu7WJeIQDPogzF27j8cBOOC7ign6wFb6vxUKQOwxvQyxCBlWjREQYHXFr+NBCUZt1ef0mM0bCwd0CUPXatix6d0PoveNWdFCbCO5a5LzHqp4sZlgJ4RAgFb+n12B8+VUniNHeJAK2OlkFkHvUk3QmDwsOC4RNjjWJUPWtww/J/gttqvAJJIezfyBqKXSZ4Q4p/9rNrb8481MJFI+QmG6BiH1WzxOWCFPfHCsvww1hijhev75k0I3B8VD9zfV4=
